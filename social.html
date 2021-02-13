@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project Graduation by Aditya P</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script>
+      window.onscroll = function() {myFunction()};
+    
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+    </script>
+
+
+
+</head>
+<body class="body">
+
+<!-- Progress Bar -->
+
+  <div class="progress-container">
+    <div class="progress-bar sticky" id="myBar"></div>
+  </div> 
+
+<!-- Navigation Bar -->
+
+  <div class="navbar-bar">
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <a class="navbar-brand" href="#"><img src="success.svg" class="fav-icon" width="30" height="30" class="d-inline-block align-top" alt=""><span id="mpg"> My Project Graduation </span></a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+  <ul class="navbar-nav ml-auto">
+
+    <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+    </li>
+
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Subjects
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="science.html">Mathematics</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="social.html">Science</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="telugu.html">Telugu</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="hindi.html">Hindi</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="english.html">English</a>
+      </div>
+    </li>   
+
+    <li class="nav-item">
+        <a class="nav-link" href="#">BHP</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="#ind-head">Political Science</a>
+    </li>  
+
+    <li class="nav-item">
+        <a class="nav-link" href="#ind-head">Histroy</a>
+    </li>  
+
+    <li class="nav-item">
+        <a class="nav-link" href="#ind-head">Economics</a>
+    </li>
+
+  </ul>
+</div>
+
+</nav>
+
+
+</div>
+
+</body>
+
+</html>
